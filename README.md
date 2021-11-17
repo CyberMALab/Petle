@@ -137,21 +137,22 @@ int main() {
 >Podaj litere 'a' aby zakonczyc:a
 
 ## **Instrukcje przerwania i kontynuacji**
-W kontekście pętli warto jeszcze powiedzieć o instrukcji kontynuacji i przerwania. Pierwsza z nich występuje w C pod nazwą continue* i powoduje wykonywania kolejnego przebiegu pętli. Innymi słowy powraca do początku pętli (w przypadku pętli *for* dokonuje kroku iteracyjnego). Druga powoduje natychmiastowe wyjście z pętli a można ją wywołać w języku C za pomocą instrukcji break. 
+W kontekście pętli warto jeszcze powiedzieć o instrukcji kontynuacji i przerwania. Pierwsza z nich występuje w C pod nazwą *continue* i powoduje wykonywania kolejnego przebiegu pętli. Innymi słowy powraca do początku pętli (w przypadku pętli *for* dokonuje kroku iteracyjnego). Druga powoduje natychmiastowe wyjście z pętli a można ją wywołać w języku C za pomocą instrukcji *break*. 
+
+Obrazowe działanie instrukcji *break*.
 
 ![Rysunek 4 2](https://user-images.githubusercontent.com/71324202/142193268-cea28e04-98ec-4844-b1eb-2bb1bc2d8dfa.png)
+
+Obrazowe działanie instrukcji *continue*.
 
 ![Rysunek 4 3](https://user-images.githubusercontent.com/71324202/142193331-0351c627-7b3a-4727-ab60-532576e98b41.png)
 
 ## **Zadania do samodzielnego wykonania:**
 1. Napisz program który oblicza sumę wszystkich liczb naturalnych mniejszych od podanej liczby
 1. Napisz program który oblicza sumę oraz średnią n-liczb podanych przez użytkownika. Liczę n podaje użytkownik.
-1. Napisz program, który wczytuje liczby do momentu wpisania przez użytkownika liczby:
-   1) Parzystej
-   1) Nieparzystej
-   1) 0
+1. Napisz programy, który wczytuje liczby do momentu wpisania przez użytkownika liczby parzystej, nieparzystej oraz '0', a następnie ich największą, najmniejszą, sumę i średnią.
 
-A następnie ich największą, najmniejszą, sumę i średnią.
+
 
 ***
 [Poprzednia część](https://github.com/CyberMALab/Instrukcja-warunkowa.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Comming-Soon.git)
