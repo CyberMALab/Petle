@@ -1,4 +1,4 @@
-# Pętle.
+# Pętle
 Pętla to element języka programowania umożliwiający wielokrotne wykonanie fragmentu kodu. W praktyce wykorzystywana jest w sytuacji, kiedy program wykonuje serie tych samych instrukcji wiele razy. W języku C istnieją 3 rodzaje pętli for*,* while*,* do… while*.* 
 
 *Schemat (4.0) Pętla*
