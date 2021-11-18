@@ -150,7 +150,10 @@ Obrazowe działanie instrukcji *continue*.
 ## **Zadania do samodzielnego wykonania:**
 1. Napisz program który oblicza sumę wszystkich liczb naturalnych mniejszych od podanej liczby
 1. Napisz program który oblicza sumę oraz średnią n-liczb podanych przez użytkownika. Liczę n podaje użytkownik.
-1. Napisz programy, który wczytuje liczby do momentu wpisania przez użytkownika liczby parzystej, nieparzystej oraz '0', a następnie ich największą, najmniejszą, sumę i średnią.
+1. Napisz programy, które wczytują liczby do momentu wpisania przez użytkownika liczby o własnościach poniżej, a następnie ich największą, najmniejszą, sumę i średnią:
+	1. parzystej
+	1. nieparzystej
+	1. 0
 
 
 
