@@ -158,6 +158,6 @@ Obrazowe działanie instrukcji *continue*.
 
 
 ***
-[Poprzednia część](https://github.com/CyberMALab/Instrukcja-warunkowa.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Comming-Soon.git)
+[Poprzednia część](https://github.com/CyberMALab/Instrukcja-warunkowa.git) | [Spis treści](https://github.com/CyberMALab/Wprowadzenie-do-programowania-w-j-zyku-ANSI-C.git) | [Następna część](https://github.com/CyberMALab/Instrukcja-wyboru-switch-case.git)
 ***
 &copy; Cyberspace Modelling and Analysis Laboratory
