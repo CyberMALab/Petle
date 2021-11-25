@@ -21,8 +21,8 @@ A użycie poszczególnych wyrażeń wygląda następująco:
 - *wyrażenie1 –* zostanie wykonane przy wejściu w pętle przed wykonaniem jego pierwszego przebiegu,
 - *wyrażenie2 –* definiuje czy pętla ma wykonać kolejny przebieg (wartość 0 wyrażenia każe przerwać wykonywanie, inne wartości każą wykonać kolejny przebieg pętli,
 - *wyrażenie3 – wykonuje się po każdym wykonaniu przebiegu pętli.*
-\*
-` `Warto zauważyć, że użycie tej pętli w sposób jaki przedstawiony został na uproszczonym schemacie jest jak najbardziej logicznym wykorzystaniem właściwości wyrażeń pętli for* a zarazem najczęściej stosowanym.
+
+Warto zauważyć, że użycie tej pętli w sposób jaki przedstawiony został na uproszczonym schemacie jest jak najbardziej logicznym wykorzystaniem właściwości wyrażeń pętli *for* a zarazem najczęściej stosowanym.
 
 *Przykład (4.0) Użycie pętli for w praktyce*
 
@@ -44,7 +44,7 @@ int main() {
 
 >1 2 3 4 5 6 7 8 9 10
 
-Przykład (4.0) może nie budzi większego zaufania, ponieważ identyczny efekt uzyskamy przez zapisanie instrukcji printf("1 2 3 4 5 6 7 8 9 10");** ale wyobraźmy sobie sytuację, w której mamy wypisać 100 albo 1000 liczb. W przypadku pętli wystarczy zmienić warunek stopu na zostawiając resztę instrukcji bez zmian, a wypisanie za pomocą takiego sposobu ręcznego zajmie trochę więcej czasu. Dodatkowo za pomocą pętli, można stworzyć program, który wykona się ilość razy nieznaną dla programisty, a podawaną przez użytkownika. Przykład takiego programu znajduje się poniżej (4.1), a napisanie go bez użycia pętli jest niemożliwe.
+Przykład (4.0) może nie budzi większego zaufania, ponieważ identyczny efekt uzyskamy przez zapisanie instrukcji printf("1 2 3 4 5 6 7 8 9 10"); ale wyobraźmy sobie sytuację, w której mamy wypisać 100 albo 1000 liczb. W przypadku pętli wystarczy zmienić warunek stopu na zostawiając resztę instrukcji bez zmian, a wypisanie za pomocą takiego sposobu ręcznego zajmie trochę więcej czasu. Dodatkowo za pomocą pętli, można stworzyć program, który wykona się ilość razy nieznaną dla programisty, a podawaną przez użytkownika. Przykład takiego programu znajduje się poniżej (4.1), a napisanie go bez użycia pętli jest niemożliwe.
 
 *Przykład (4.1) Pętla for – zastosowanie praktyczne*
 ```
@@ -78,7 +78,7 @@ int main() {
 
 
 ## **Pętla *while* i *do... while***
-Pętla while* jest pętlą warunkową. Za jedyne wyrażenie jakie przyjmuje to warunek wykonywania (gramatycznie – wyrażenie2 z pętli for). 
+Pętla *while* jest pętlą warunkową. Jedyne wyrażenie jakie przyjmuje to warunek wykonywania (gramatycznie – wyrażenie2 z pętli for). 
 
 ![Rysunek 4 1](https://user-images.githubusercontent.com/71324202/142193208-3f315ec1-30c0-4e6f-aba7-08416237b841.png)
 
@@ -110,9 +110,9 @@ int main() {
 >
 >Podaj litere 'a' aby zakonczyc:a
 
-Pętla do… while* jest niemal identyczna w użyciu i działaniu jak pętla while*,* z tą różnicą, że pętla do… while* wykona się przynajmniej raz, ponieważ warunek nie jest sprawdzany na początku wykonania pętli (jak w pętli while), tylko na końcu. Istotną różnicą jest fakt, że po podaniu warunku pętli do… while* należy postawić średnik.
+Pętla *do… while* jest niemal identyczna w użyciu i działaniu jak pętla *while*, z tą różnicą, że pętla *do… while* wykona się przynajmniej raz, ponieważ warunek nie jest sprawdzany na początku wykonania pętli (jak w pętli *while*), tylko na końcu. Istotną różnicą jest fakt, że po podaniu warunku pętli *do… while* należy postawić średnik.
 
-*Przykład (4.3) Użycie pętli do… while*
+*Przykład (4.3) Użycie pętli *do… while**
 
 ```
 #include <stdio.h>
