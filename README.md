@@ -1,16 +1,16 @@
 # Pętle
-Pętla to element języka programowania umożliwiający wielokrotne wykonanie fragmentu kodu. W praktyce wykorzystywana jest w sytuacji, kiedy program wykonuje serie tych samych instrukcji wiele razy. W języku C istnieją 3 rodzaje pętli for*,* while*,* do… while*.* 
+Pętla to element języka programowania umożliwiający wielokrotne wykonanie fragmentu kodu. W praktyce wykorzystywana jest w sytuacji, kiedy program wykonuje serie tych samych instrukcji wiele razy. W języku C istnieją 3 rodzaje pętli *for*,*while*, *do… while*. 
 
 *Schemat (4.0) Pętla*
 
 ![Schemat 4 0](https://user-images.githubusercontent.com/71324202/142193003-570890bf-4e03-4152-8d7b-b4d840e3d9a7.png)
 
 ## **Pętla *for***
-Pętla for* jest pętlą iteracyjną, czyli taką która wykonuje się konkretną ilość razy. Posiada ona najczęściej parametr nazywany zmienną sterującą. Nazwa zmiennej pochodzi od funkcji, którą pełni ona w pętli for*,* ponieważ steruje ona ilością wykonania pętli. Deklarując pętlę *for* mamy możliwość opisania 3 wyrażeń wewnątrz nawiasów definiujących pętlę, czyli w praktyce deklaracja wartości początkowej zmiennej sterującej, warunek wykonywania, zmiana zmiennej sterującej. Najczęstsza budowa pętli for* w języku C:
+Pętla *for* jest pętlą iteracyjną, czyli taką która wykonuje się konkretną ilość razy. Posiada ona najczęściej parametr nazywany zmienną sterującą. Nazwa zmiennej pochodzi od funkcji, którą pełni ona w pętli *for*, ponieważ steruje ona ilością wykonania pętli. Deklarując pętlę *for* mamy możliwość opisania 3 wyrażeń wewnątrz nawiasów definiujących pętlę, czyli w praktyce deklaracja wartości początkowej zmiennej sterującej, warunek wykonywania, zmiana zmiennej sterującej. Najczęstsza budowa pętli *for* w języku C:
 
 ![Rysunek 4 0](https://user-images.githubusercontent.com/71324202/142193127-242674ab-7d6c-4673-9f05-5a4171e6c81e.png)
 
-Przy deklaracji pętli *for* bardzo ważny jest zwrócenie uwagi na to, aby zmiana zmiennej dążyła do warunku stopu. W przeciwnym wypadku możemy niechcący wpaść w pętlę nieskończoną. 
+Przy deklaracji pętli *for* bardzo ważne jest zwrócenie uwagi na to, aby zmiana zmiennej dążyła do warunku stopu. W przeciwnym wypadku możemy niechcący wpaść w pętlę nieskończoną. 
 
 Tak na prawdę, zastosowany przeze mnie schemat, nie pokazuje w pełni potencjału pętli for. Powyżej została przedstawiona uproszczona – łatwa do zrozumienia budowa pętli. Tak na prawdę wyrażenia, które przyjmuje pętla *for* są dowolne. Nie musimy nawet używać zmiennej sterującej.  Prawdziwy schemat pętli *for* zgodny z gramatyką języka wygląda następująco:
 
