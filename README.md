@@ -154,6 +154,7 @@ Obrazowe działanie instrukcji *continue*.
 	1. parzystej
 	1. nieparzystej
 	1. 0
+1. Dla podanego `n` z zakresu 1–100 oblicz `1*1 + 2*2 + ... + n*n` za pomocą pętli `for`. Odrzuć liczbę spoza zakresu.
 
 
 
