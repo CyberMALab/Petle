@@ -6,7 +6,7 @@ Pętla to element języka programowania umożliwiający wielokrotne wykonanie fr
 ![Schemat 4 0](https://user-images.githubusercontent.com/71324202/142193003-570890bf-4e03-4152-8d7b-b4d840e3d9a7.png)
 
 ## **Pętla *for***
-Pętla *for* jest pętlą iteracyjną, czyli taką która wykonuje się konkretną ilość razy. Posiada ona najczęściej parametr nazywany zmienną sterującą. Nazwa zmiennej pochodzi od funkcji, którą pełni ona w pętli *for*, ponieważ steruje ona ilością wykonania pętli. Deklarując pętlę *for* mamy możliwość opisania 3 wyrażeń wewnątrz nawiasów definiujących pętlę, czyli w praktyce deklaracja wartości początkowej zmiennej sterującej, warunek wykonywania, zmiana zmiennej sterującej. Najczęstsza budowa pętli *for* w języku C:
+Pętla *for* jest składniowo przeznaczona do iteracji, czyli wykonywania kodu określoną liczbę razy. Najczęściej używa się w niej zmiennej sterującej, która liczy przebiegi pętli. W nawiasach pętli zapisujemy trzy wyrażenia: wartość początkową, warunek wykonywania oraz zmianę zmiennej sterującej. Najczęstsza budowa pętli *for* w języku C:
 
 ![Rysunek 4 0](https://user-images.githubusercontent.com/71324202/142193127-242674ab-7d6c-4673-9f05-5a4171e6c81e.png)
 
@@ -44,7 +44,7 @@ int main() {
 
 >1 2 3 4 5 6 7 8 9 10
 
-Przykład (4.0) może nie budzi większego zaufania, ponieważ identyczny efekt uzyskamy przez zapisanie instrukcji printf("1 2 3 4 5 6 7 8 9 10"); ale wyobraźmy sobie sytuację, w której mamy wypisać 100 albo 1000 liczb. W przypadku pętli wystarczy zmienić warunek stopu na zostawiając resztę instrukcji bez zmian, a wypisanie za pomocą takiego sposobu ręcznego zajmie trochę więcej czasu. Dodatkowo za pomocą pętli, można stworzyć program, który wykona się ilość razy nieznaną dla programisty, a podawaną przez użytkownika. Przykład takiego programu znajduje się poniżej (4.1), a napisanie go bez użycia pętli jest niemożliwe.
+Przykład (4.0) może nie budzi większego zaufania, ponieważ identyczny efekt uzyskamy przez zapisanie instrukcji printf("1 2 3 4 5 6 7 8 9 10"); ale wyobraźmy sobie sytuację, w której mamy wypisać 100 albo 1000 liczb. W przypadku pętli wystarczy zmienić warunek stopu, zostawiając resztę instrukcji bez zmian, a wypisanie za pomocą takiego sposobu ręcznego zajmie trochę więcej czasu. Dodatkowo za pomocą pętli, można stworzyć program, który wykona się ilość razy nieznaną dla programisty, a podawaną przez użytkownika. Przykład takiego programu znajduje się poniżej (4.1), a napisanie go bez użycia pętli jest niemożliwe.
 
 *Przykład (4.1) Pętla for – zastosowanie praktyczne*
 ```
